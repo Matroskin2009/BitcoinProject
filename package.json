@@ -1,0 +1,16 @@
+{
+  "name": "bitcoin-price-service",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "start": "node --loader ts-node/esm src/server.ts"
+  },
+  "dependencies": {
+    "hono": "^4.0.0",
+    "@hono/node-server": "^1.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
